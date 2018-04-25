@@ -1,0 +1,34 @@
+{
+  "name": "inhabitent",
+  "version": "1.0.0",
+  "description": "A wordpress theme created at RED Academy.",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "*",
+    "gulp-cssnano": "*",
+    "gulp-eslint": "*",
+    "gulp-prettyerror": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelsc/RED-WP-Inhabitent.git"
+  },
+  "author": "rafaelsc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelsc/RED-WP-Inhabitent/issues"
+  },
+  "homepage": "https://github.com/rafaelsc/RED-WP-Inhabitent/#readme"
+}
