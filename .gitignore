@@ -204,7 +204,7 @@ wp-content/plugins/hello.php
 ##################################################################
 
 # Ignore everything in "wp-content" except these directories. #
-index.php
+/index.php
 
 # Ignore everything in "plugins" except certain plugins. #
 plugins/*
