@@ -13,7 +13,8 @@
     "gulp-prettyerror": "*",
     "gulp-rename": "*",
     "gulp-sass": "*",
-    "gulp-uglify": "*"
+    "gulp-uglify": "*",
+    "sass-lint": "^1.12.1"
   },
   "prettier": {
     "singleQuote": true
