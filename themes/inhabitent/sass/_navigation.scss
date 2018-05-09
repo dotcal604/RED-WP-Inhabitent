@@ -33,7 +33,8 @@ a {
 	width: 100%;
 
 	ul {
-		display: none;
+		display: inline-flex;
+		flex-direction: row;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
@@ -80,6 +81,8 @@ a {
 		float: left;
 		position: relative;
 
+		padding: 0 .5rem;
+
 		&:hover > a,
 		&.focus > a {
 		}
@@ -87,6 +90,13 @@ a {
 	a {
 		display: block;
 		text-decoration: none;
+		text-transform: uppercase;
+
+        color: green;
+
+        .home & {
+          color: white;
+        }
 	}
 
 	.current_page_item > a,

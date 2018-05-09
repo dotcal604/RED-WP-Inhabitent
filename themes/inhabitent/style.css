@@ -433,7 +433,13 @@ a {
   float: left;
   width: 100%; }
   .main-navigation ul {
-    display: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     list-style: none;
     margin: 0;
     padding-left: 0; }
@@ -458,10 +464,15 @@ a {
       left: auto; }
   .main-navigation li {
     float: left;
-    position: relative; }
+    position: relative;
+    padding: 0 .5rem; }
   .main-navigation a {
     display: block;
-    text-decoration: none; }
+    text-decoration: none;
+    text-transform: uppercase;
+    color: green; }
+    .home .main-navigation a {
+      color: white; }
 
 /* Small menu. */
 .menu-toggle,
