@@ -68,3 +68,14 @@ table {
 	margin: 0 0 $base__space-unit;
 	width: 100%;
 }
+
+
+footer {
+
+	width: 100%;
+	background: black url("../img/dark-wood.png");
+
+	.logo {
+		background: url("../img/logos/inhabitent-logo-text-dark.svg");
+	}
+}
