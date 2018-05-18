@@ -226,3 +226,8 @@ themes/inhabitent/.vscode/
 *.sqlite
 error_log
 access_log
+
+###########################################
+
+themes/inhabitent/linters/sass-lint.html
+
