@@ -70,12 +70,59 @@ table {
 }
 
 
-footer {
-
+.site-footer {
 	width: 100%;
 	background: black url("../img/dark-wood.png");
+	color: $color__footer-text;
 
+	& > div {
+		width: 100%;
+		padding: 2rem;
+		display: inline-flex;
+
+		& > div {
+			width: 33.333%;
+			min-width: 200px;
+		}
+	}
+
+	h2 {
+		color: $color__orange-brand;
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+		@include font-size(0.95);
+	}
+
+	li, a, a:link, a:visited {
+		color: $color__footer-text;
+		text-decoration: unset;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.site-contact{
+		ul {
+			margin-left: 25px;
+			margin-bottom: 0px;
+		}
+	}
+	
 	.logo {
 		background: url("../img/logos/inhabitent-logo-text-dark.svg");
+	}
+
+	.socialNetwork {
+
+		li {
+			float:left;
+			width: 26px;
+		}
+		a, a:link, a:visited {
+				color: transparent;	
+			.fa-li {
+				color: $color__footer-text;
+			}
+		}		
 	}
 }

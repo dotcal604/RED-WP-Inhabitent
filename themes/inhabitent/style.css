@@ -382,11 +382,42 @@ table {
   margin: 0 0 1.5rem;
   width: 100%; }
 
-footer {
+.site-footer {
   width: 100%;
-  background: black url("../img/dark-wood.png"); }
-  footer .logo {
+  background: black url("../img/dark-wood.png");
+  color: #fff; }
+  .site-footer > div {
+    width: 100%;
+    padding: 2rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; }
+    .site-footer > div > div {
+      width: 33.333%;
+      min-width: 200px; }
+  .site-footer h2 {
+    color: #d99054;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 15.2px;
+    font-size: 0.95rem; }
+  .site-footer li, .site-footer a, .site-footer a:link, .site-footer a:visited {
+    color: #fff;
+    text-decoration: unset; }
+    .site-footer li:hover, .site-footer a:hover, .site-footer a:link:hover, .site-footer a:visited:hover {
+      text-decoration: underline; }
+  .site-footer .site-contact ul {
+    margin-left: 25px;
+    margin-bottom: 0px; }
+  .site-footer .logo {
     background: url("../img/logos/inhabitent-logo-text-dark.svg"); }
+  .site-footer .socialNetwork li {
+    float: left;
+    width: 26px; }
+  .site-footer .socialNetwork a, .site-footer .socialNetwork a:link, .site-footer .socialNetwork a:visited {
+    color: transparent; }
+    .site-footer .socialNetwork a .fa-li, .site-footer .socialNetwork a:link .fa-li, .site-footer .socialNetwork a:visited .fa-li {
+      color: #fff; }
 
 /*--------------------------------------------------------------
 # Forms
