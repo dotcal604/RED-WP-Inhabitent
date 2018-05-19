@@ -69,6 +69,36 @@ table {
 	width: 100%;
 }
 
+/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+
+.site-header {
+	width: 100%;
+	height: 40px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	border-bottom: 1px solid $border__solid;
+
+	.site-description {
+		width: 40px;
+		height: 28px;
+		margin: 0;
+
+		background-size: cover;
+		background-image: url("../img/logos/inhabitent-logo-tent.svg");
+
+		.home & {
+			background-image: url("../img/logos/inhabitent-logo-tent-white.svg");
+		}
+	}
+
+	.main-navigation {
+		
+	}
+}
 
 .site-footer {
 	width: 100%;
@@ -79,9 +109,9 @@ table {
 		width: 100%;
 		padding: 2rem;
 		display: inline-flex;
-
+		
 		& > div {
-			width: 33.333%;
+			width: 33.33%;
 			min-width: 200px;
 		}
 	}
@@ -109,11 +139,10 @@ table {
 	}
 	
 	.logo {
-		background: url("../img/logos/inhabitent-logo-text-dark.svg");
+		background: url("../img/logos/inhabitent-logo-text.svg") no-repeat;
 	}
 
 	.socialNetwork {
-
 		li {
 			float:left;
 			width: 26px;
@@ -124,5 +153,10 @@ table {
 				color: $color__footer-text;
 			}
 		}		
+	}
+
+	.copyright {
+		width: 100%;
+		text-align: center;
 	}
 }

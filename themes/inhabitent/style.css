@@ -382,6 +382,28 @@ table {
   margin: 0 0 1.5rem;
   width: 100%; }
 
+.site-header {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid 1px solid #e1e1e1; }
+  .site-header .site-description {
+    width: 40px;
+    height: 28px;
+    margin: 0;
+    background-size: cover;
+    background-image: url("../img/logos/inhabitent-logo-tent.svg"); }
+    .home .site-header .site-description {
+      background-image: url("../img/logos/inhabitent-logo-tent-white.svg"); }
+
 .site-footer {
   width: 100%;
   background: black url("../img/dark-wood.png");
@@ -393,7 +415,7 @@ table {
     display: -ms-inline-flexbox;
     display: inline-flex; }
     .site-footer > div > div {
-      width: 33.333%;
+      width: 33.33%;
       min-width: 200px; }
   .site-footer h2 {
     color: #d99054;
@@ -410,7 +432,7 @@ table {
     margin-left: 25px;
     margin-bottom: 0px; }
   .site-footer .logo {
-    background: url("../img/logos/inhabitent-logo-text-dark.svg"); }
+    background: url("../img/logos/inhabitent-logo-text.svg") no-repeat; }
   .site-footer .socialNetwork li {
     float: left;
     width: 26px; }
@@ -418,6 +440,9 @@ table {
     color: transparent; }
     .site-footer .socialNetwork a .fa-li, .site-footer .socialNetwork a:link .fa-li, .site-footer .socialNetwork a:visited .fa-li {
       color: #fff; }
+  .site-footer .copyright {
+    width: 100%;
+    text-align: center; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -505,8 +530,7 @@ a {
 .main-navigation {
   clear: both;
   display: block;
-  float: left;
-  width: 100%; }
+  float: left; }
   .main-navigation ul {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
