@@ -34,11 +34,12 @@ hr {
 }
 
 ul, ol {
-	margin: 0 0 $base__space-unit ($base__space-unit * 2);
+	// margin: 0 0 $base__space-unit ($base__space-unit * 2);
+	// margin: 0;
+	padding: 0;
 }
-
 ul {
-	list-style: disc;
+	list-style: none;
 }
 
 ol {
@@ -69,18 +70,25 @@ table {
 	width: 100%;
 }
 
+
 /////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
+
+// .site{
+// 	max-width: $max__width;
+// 	@include center-block;
+// }
 
 .site-header {
 	width: 100%;
 	height: 40px;
-
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
 	border-bottom: 1px solid $border__solid;
+
+	& > div {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 
 	.site-description {
 		width: 40px;
@@ -98,6 +106,10 @@ table {
 	.main-navigation {
 		
 	}
+}
+
+.content-to-center {
+	@include center-content;
 }
 
 .site-footer {
@@ -125,11 +137,6 @@ table {
 
 	li, a, a:link, a:visited {
 		color: $color__footer-text;
-		text-decoration: unset;
-
-		&:hover {
-			text-decoration: underline;
-		}
 	}
 	.site-contact{
 		ul {
@@ -158,5 +165,14 @@ table {
 	.copyright {
 		width: 100%;
 		text-align: center;
+	}
+}
+
+/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+
+.error-404 {
+	.search-field {
+		width: 200px;
 	}
 }

@@ -279,7 +279,10 @@ textarea {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "Novovento Sans Wide", sans-serif; }
+  font-family: "Novovento Sans Wide", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.1rem; }
 
 /* Copy */
 p {
@@ -353,10 +356,10 @@ hr {
   margin-bottom: 1.5rem; }
 
 ul, ol {
-  margin: 0 0 1.5rem 3rem; }
+  padding: 0; }
 
 ul {
-  list-style: disc; }
+  list-style: none; }
 
 ol {
   list-style: decimal; }
@@ -385,16 +388,17 @@ table {
 .site-header {
   width: 100%;
   height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border-bottom: 1px solid 1px solid #e1e1e1; }
+  .site-header > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .site-header .site-description {
     width: 40px;
     height: 28px;
@@ -403,6 +407,12 @@ table {
     background-image: url("../img/logos/inhabitent-logo-tent.svg"); }
     .home .site-header .site-description {
       background-image: url("../img/logos/inhabitent-logo-tent-white.svg"); }
+
+.content-to-center {
+  width: 100%;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .site-footer {
   width: 100%;
@@ -424,10 +434,7 @@ table {
     font-size: 15.2px;
     font-size: 0.95rem; }
   .site-footer li, .site-footer a, .site-footer a:link, .site-footer a:visited {
-    color: #fff;
-    text-decoration: unset; }
-    .site-footer li:hover, .site-footer a:hover, .site-footer a:link:hover, .site-footer a:visited:hover {
-      text-decoration: underline; }
+    color: #fff; }
   .site-footer .site-contact ul {
     margin-left: 25px;
     margin-bottom: 0px; }
@@ -443,6 +450,9 @@ table {
   .site-footer .copyright {
     width: 100%;
     text-align: center; }
+
+.error-404 .search-field {
+  width: 200px; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -491,7 +501,8 @@ input[type="search"],
 textarea {
   color: #666;
   border: 1px solid #ccc;
-  border-radius: 3px; }
+  border-radius: 3px;
+  background: #e1e1e1; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -511,20 +522,28 @@ textarea {
   padding-left: 3px;
   width: 100%; }
 
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: #248A83;
+  text-decoration: unset; }
   a:visited {
-    color: purple; }
+    color: #030303; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
+    color: #d99054; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
+  a:hover {
+    text-decoration: underline; }
 
 /* Menus */
 .main-navigation {
@@ -564,7 +583,7 @@ a {
   .main-navigation li {
     float: left;
     position: relative;
-    padding: 0 .5rem; }
+    padding: 0 1rem; }
   .main-navigation a {
     display: block;
     text-decoration: none;
@@ -729,6 +748,9 @@ a {
 
 /* Search widget. */
 .widget_search .search-submit {
+  display: none; }
+
+.search-form .search-submit {
   display: none; }
 
 /*--------------------------------------------------------------

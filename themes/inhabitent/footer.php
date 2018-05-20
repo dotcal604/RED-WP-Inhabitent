@@ -12,7 +12,7 @@
 								<div class="site-info">
 									<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
 								</div> -->
-				<div> 
+				<div class="content-to-center"> 
 					<div class="site-contact">
 						<h2>Contact Info</h2>
 						<ul class="fa-ul">
@@ -44,7 +44,7 @@
 						<div class="screen-reader-text">Inhabitent Company Supply Co.</div>
 					</div>
 				</div>
-                <div class="copyright">
+                <div class="copyright content-to-center">
                     Copyright <i class="far fa-copyright"></i> 2016 Inhabitent
                 </div>
 				

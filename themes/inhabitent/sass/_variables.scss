@@ -1,11 +1,20 @@
 // Structure
 
+$max__width: 1120px;
 $base__space-unit: 1.5rem; //The base spacing unit is 1.5rem
 
 // Colors
 
+$color__green-brand: #248A83; //The HEX code for the green brand colour is #248A83
+$color__purple-brand: #030303; //The HEX code for the purple brand colour is #2f1339
+$color__orange-brand: #d99054; //The HEX code for the orange brand colour is #d99054
+$color__yellow-brand: #f0e4d1; //The HEX code for the yellow brand colour is #f0e4d1
+$color__light-gray-brand: #a1a1a1; //The HEX code for the light grey brand colour is #a1a1a1
+$color__medium-grey-brand: #808080; //The HEX code for the medium grey brand colour is #808080
+
 $color__background-body: #fff; //The main background colour is #ffffff
 $color__text-main: #404040; //The base font size is 16px and its HEX code is #404040
+
 
 $color__background-screen: #f1f1f1;
 $color__text-screen: #21759b;
@@ -15,17 +24,9 @@ $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__border-abbr: #666;
 
-$color__link: royalblue;
-$color__link-visited: purple;
-$color__link-hover: midnightblue;
-
-
-$color__green-brand: #248A83; //The HEX code for the green brand colour is #248A83
-$color__purple-brand: #2f1339; //The HEX code for the purple brand colour is #2f1339
-$color__orange-brand: #d99054; //The HEX code for the orange brand colour is #d99054
-$color__yellow-brand: #f0e4d1; //The HEX code for the yellow brand colour is #f0e4d1
-$color__light-gray-brand: #a1a1a1; //The HEX code for the light grey brand colour is #a1a1a1
-$color__medium-grey-brand: #808080; //The HEX code for the medium grey brand colour is #808080
+$color__link: $color__green-brand;
+$color__link-visited: $color__purple-brand;
+$color__link-hover: $color__orange-brand;
 
 $color__footer-text: #fff;
 
@@ -33,6 +34,10 @@ $color__footer-text: #fff;
 
 $border__solid: 1px solid #e1e1e1; //The solid border is 1px solid #e1e1e1
 $border__dashed: 1px dashed #c8c8c8; //The dashed border is 1px dashed #c8c8c8
+
+//Forms
+
+$color__color__background_input: #e1e1e1;
 
 // Typography
 
