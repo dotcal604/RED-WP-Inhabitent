@@ -40,7 +40,7 @@ function product_type() {
 		'show_in_nav_menus'          => true,
 		'show_tagcloud'              => true,
 	);
-	register_taxonomy( 'product_type', array( 'post' ), $args );
+	register_taxonomy( 'product_type', array( 'products' ), $args );
 
 }
 add_action( 'init', 'product_type', 0 );
