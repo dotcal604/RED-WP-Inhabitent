@@ -24,7 +24,7 @@
 				<div class="content-to-center">
 					<div class="site-branding">
 						<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-						<p class="site-description"><span class="visuallyhidden"><?php bloginfo( 'description' ); ?></span></p>
+						<p class="site-description"><span class="screen-reader-text"><?php bloginfo( 'description' ); ?></span></p>
 					</div><!-- .site-branding -->
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
@@ -34,4 +34,4 @@
 				</div>
 			</header><!-- #masthead -->
 
-			<div id="content" class="site-content content-to-center">
+			<div id="content" class="site-content">
