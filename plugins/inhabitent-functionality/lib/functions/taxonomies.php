@@ -7,7 +7,7 @@
 
 // Add your custom taxonomies here...
 // Register Custom Taxonomy
-function product_type() {
+function inhabitent_product_type() {
 
 	$labels = array(
 		'name'                       => _x( 'Product Types', 'Taxonomy General Name', 'inhabitent_text_domain' ),
@@ -43,4 +43,4 @@ function product_type() {
 	register_taxonomy( 'product_type', array( 'products' ), $args );
 
 }
-add_action( 'init', 'product_type', 0 );
+add_action( 'init', 'inhabitent_product_type', 0 );
