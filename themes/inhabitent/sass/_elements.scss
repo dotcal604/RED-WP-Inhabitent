@@ -90,7 +90,7 @@ table {
 		align-items: center;
 	}
 
-	.site-description {
+	.site-branding {
 		width: 40px;
 		height: 28px;
 		margin: 0;
@@ -98,7 +98,8 @@ table {
 		background-size: cover;
 		background-image: url("../img/logos/inhabitent-logo-tent.svg");
 
-		.home & {
+		.home &,
+		.about & {
 			background-image: url("../img/logos/inhabitent-logo-tent-white.svg");
 		}
 	}
@@ -174,5 +175,27 @@ table {
 .error-404 {
 	.search-field {
 		width: 200px;
+	}
+}
+
+.home {
+
+	.page-hero {
+		margin-top: -40px;
+		width: 100vw;
+		height: 100vh;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696
+					url("../img/home-hero.jpg") no-repeat top;
+		background-size: cover,cover;
+	}
+	.page-title {
+		width: 275px;
+		height: 275px;
+		background: url("../img/logos/inhabitent-logo-full.svg") no-repeat;
 	}
 }

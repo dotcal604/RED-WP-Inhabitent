@@ -399,13 +399,14 @@ table {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  .site-header .site-description {
+  .site-header .site-branding {
     width: 40px;
     height: 28px;
     margin: 0;
     background-size: cover;
     background-image: url("../img/logos/inhabitent-logo-tent.svg"); }
-    .home .site-header .site-description {
+    .home .site-header .site-branding,
+    .about .site-header .site-branding {
       background-image: url("../img/logos/inhabitent-logo-tent-white.svg"); }
 
 .content-to-center {
@@ -453,6 +454,28 @@ table {
 
 .error-404 .search-field {
   width: 200px; }
+
+.home .page-hero {
+  margin-top: -40px;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), #969696 url("../img/home-hero.jpg") no-repeat top;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../img/home-hero.jpg") no-repeat top;
+  background-size: cover,cover; }
+
+.home .page-title {
+  width: 275px;
+  height: 275px;
+  background: url("../img/logos/inhabitent-logo-full.svg") no-repeat; }
 
 /*--------------------------------------------------------------
 # Forms
