@@ -5,6 +5,11 @@
 html {
 	box-sizing: border-box;
 	@include font-size(1);
+	width: 100%;
+}
+
+body {
+	width: 100%;
 }
 
 *,
@@ -74,10 +79,9 @@ table {
 /////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
 
-// .site{
-// 	max-width: $max__width;
-// 	@include center-block;
-// }
+.site{
+	width: auto;
+ }
 
 .site-header {
 	width: 100%;
@@ -120,7 +124,7 @@ table {
 
 	& > div {
 		padding: 2rem;
-		display: inline-flex;
+		display: flex;
 		
 		& > div {
 			width: 33.33%;
@@ -209,4 +213,47 @@ table {
 	.adventures {
 
 	}
+}
+
+.site-content {
+	 
+	width: $max__width;
+	margin-left: auto;
+	margin-right: auto;
+
+	display: flex;
+
+	& .content-to-center {
+		
+	}
+	
+	.content-area {
+		width: auto;
+		padding-top: 2rem;
+		margin-left: .5rem;
+		padding-right: 3rem;
+		border-right: 1px solid #e1e1e1;
+	}
+	.widget-area {
+		width: 40%;
+		min-width: 125px;
+		max-width: 300px;
+		padding-top: 2rem;
+		padding-left: 3rem;
+
+		.site-contact {
+			ul {
+				margin-left: 25px;
+			}
+			li {
+				margin-top: .4rem;
+				margin-bottom: .6rem;
+			}
+		}
+	}
+
+	.about-content-area {
+		
+	}
+
 }
