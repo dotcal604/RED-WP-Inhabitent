@@ -54,7 +54,7 @@ get_header(); ?>
 
         <div class="">
         <?php if ( !empty( $blog_posts ) ) : ?>
-            <ul>
+            <ul class="">
             <?php foreach ( $blog_posts as $post ) : setup_postdata( $post ); ?>
                 <li>
                     <div class=""><?php the_post_thumbnail( 'small' ); ?></div>
@@ -68,6 +68,33 @@ get_header(); ?>
         <div>
     </session>
 
+    <session class="page-content">
+        <h2>Latest Adventures</h2>
+
+        <?php
+            $query_args = array( 
+                'post_type' => 'adventures', 
+                'posts_per_page' => 4,
+                'order' => 'ASC'
+            );
+            $adventures_posts = get_posts( $query_args ); // returns an array of posts
+        ?>
+
+        <div class="">
+        <?php if ( !empty( $adventures_posts ) ) : ?>
+            <ul class="">
+            <?php foreach ( $adventures_posts as $post ) : setup_postdata( $post ); ?>
+                <li>
+                    <div class=""><?php the_post_thumbnail( 'small' ); ?></div>
+                    <div class=""><?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?></div>
+                    <h3 class=""><a href="<?php the_permalink(); ?>" class=""><?php the_title(); ?></a></h3>
+                    <a href="<?php the_permalink(); ?>" class="">Read entry</a>
+                <li>
+            <?php endforeach; wp_reset_postdata(); ?>
+            </ul>
+        <?php endif; ?>
+        <div>
+    </session>
 
 
 </div>
