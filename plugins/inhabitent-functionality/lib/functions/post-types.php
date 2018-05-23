@@ -44,7 +44,7 @@ function inhabitent_products_post_type() {
 		'label'                 => __( 'Product', 'inhabitent_text_domain' ),
 		'description'           => __( 'Products', 'inhabitent_text_domain' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail' ),
+		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
 		'taxonomies'            => array( 'product_type' ),
 		'hierarchical'          => false,
 		'public'                => true,
