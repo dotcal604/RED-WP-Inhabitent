@@ -115,6 +115,7 @@ table {
 
 .content-to-center {
 	@include center-content;
+	display: flex;
 }
 
 .site-footer {
@@ -183,6 +184,8 @@ table {
 
 .home {
 
+	display: block;
+
 	.page-hero {
 		margin-top: -40px;
 		width: 100vw;
@@ -216,17 +219,18 @@ table {
 }
 
 .site-content {
-	 
-	width: $max__width;
-	margin-left: auto;
-	margin-right: auto;
+	width: auto;
+	// width: $max__width;
+	// margin-left: auto;
+	// margin-right: auto;
 
 	display: flex;
 
-	& .content-to-center {
-		
+	.home &,
+	.about & {
+		display: block;
 	}
-	
+
 	.content-area {
 		width: auto;
 		padding-top: 2rem;
@@ -251,9 +255,33 @@ table {
 			}
 		}
 	}
+}
 
-	.about-content-area {
-		
+.site-main {
+	.feature-image {
+		margin-top: -40px;
+		width: 100vw;
+		height: 100vh;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		background-size: cover,cover;
 	}
+	.entry-header {
 
+		.home &,
+		.about & {
+			color: white;
+			font-size: 2rem;
+		}
+
+	}
+}
+
+.about-content-area {
+	.entry-content {
+
+	}
 }

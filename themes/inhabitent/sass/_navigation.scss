@@ -98,7 +98,8 @@ a {
 
         color: green;
 
-        .home & {
+		.home &,
+		.about & {
           color: white;
         }
 	}

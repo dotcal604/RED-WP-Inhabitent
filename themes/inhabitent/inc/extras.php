@@ -16,22 +16,21 @@ function red_starter_body_classes( $classes ) {
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';
 	}
-
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
 
 
-
 function red_starter_login_logo($url) {
 	// return "$url/images/logos/inhabitent-logo-full.svg";
 	echo '<style type="text/css">
-	h1 a {background-image: url('.get_bloginfo('template_directory').'/images/logos/inhabitent-logo-full.svg) !important; }
+	h1 a {background-image: url('.get_bloginfo('template_directory').'/build/images/logos/inhabitent-logo-full.svg) !important; }
 </style>';
 } 
 add_filter( 'login_head', 'red_starter_login_logo' );
 
+
 function red_starter_login_url($url) {
-	return "http://http://tent.academy.red/";
+	return "http://tent.academy.red/";
 } 
 add_filter( 'login_headerurl', 'red_starter_login_url' );
