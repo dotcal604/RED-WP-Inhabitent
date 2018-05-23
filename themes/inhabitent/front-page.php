@@ -57,7 +57,7 @@ get_header(); ?>
             <ul class="">
             <?php foreach ( $blog_posts as $post ) : setup_postdata( $post ); ?>
                 <li>
-                    <div class=""><?php the_post_thumbnail( 'small' ); ?></div>
+                    <div class=""><?php the_post_thumbnail( 'medium_large' ); ?></div>
                     <div class=""><?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?></div>
                     <h3 class=""><a href="<?php the_permalink(); ?>" class=""><?php the_title(); ?></a></h3>
                     <a href="<?php the_permalink(); ?>" class="">Read entry</a>
@@ -85,7 +85,7 @@ get_header(); ?>
             <ul class="">
             <?php foreach ( $adventures_posts as $post ) : setup_postdata( $post ); ?>
                 <li>
-                    <div class=""><?php the_post_thumbnail( 'small' ); ?></div>
+                    <div class=""><?php the_post_thumbnail( 'medium_large' ); ?></div>
                     <div class=""><?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?></div>
                     <h3 class=""><a href="<?php the_permalink(); ?>" class=""><?php the_title(); ?></a></h3>
                     <a href="<?php the_permalink(); ?>" class="">Read entry</a>
