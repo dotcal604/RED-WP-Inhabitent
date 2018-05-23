@@ -12,7 +12,7 @@ function red_starter_about_body_classes( $classes ) {
 add_filter( 'body_class', 'red_starter_about_body_classes' );
 
 
-get_header( "about" ); ?>
+get_header(); ?>
 
     <!-- <div class="content-to-center"> -->
         <div id="primary" class="about-content-area">
