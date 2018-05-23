@@ -13,7 +13,7 @@ get_header(); ?>
 
 <div class="content-to-center">
 
-    <session class="page-content">
+    <session class="page-content shop-stuff">
         <h2>Shop Stuff</h2>
 
         <?php 
@@ -40,7 +40,7 @@ get_header(); ?>
         </div>
     </session>
 
-    <session class="page-content">
+    <session class="page-content journal">
         <h2>Inhabitent Journal</h2>
 
         <?php
@@ -65,10 +65,10 @@ get_header(); ?>
             <?php endforeach; wp_reset_postdata(); ?>
             </ul>
         <?php endif; ?>
-        <div>
+        </div>
     </session>
 
-    <session class="page-content">
+    <session class="page-content adventures">
         <h2>Latest Adventures</h2>
 
         <?php
@@ -93,11 +93,11 @@ get_header(); ?>
             <?php endforeach; wp_reset_postdata(); ?>
             </ul>
         <?php endif; ?>
-        <div>
+        </div>
     </session>
 
 
 </div>
 
-<!-- <?php //get_sidebar(); ?> -->
+<?php //get_sidebar(); ?> 
 <?php get_footer(); ?>

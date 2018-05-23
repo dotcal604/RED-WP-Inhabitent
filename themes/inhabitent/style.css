@@ -420,7 +420,6 @@ table {
   background: black url("../img/dark-wood.png");
   color: #fff; }
   .site-footer > div {
-    width: 100%;
     padding: 2rem;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
