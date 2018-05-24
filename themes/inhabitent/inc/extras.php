@@ -24,13 +24,13 @@ add_filter( 'body_class', 'rafaelsc_inhabitent_body_classes' );
 function rafaelsc_inhabitent_login_logo($url) {
 	// return "$url/images/logos/inhabitent-logo-full.svg";
 	echo '<style type="text/css">
-	h1 a {background-image: url('.get_bloginfo('template_directory').'/build/images/logos/inhabitent-logo-full.svg) !important; }
+	h1 a {background-image: url('.get_bloginfo('template_directory').'/build/img/logos/inhabitent-logo-full.svg) !important; }
 </style>';
 } 
 add_filter( 'login_head', 'rafaelsc_inhabitent_login_logo' );
 
 
 function rafaelsc_inhabitent_login_url($url) {
-	return "http://tent.academy.red/";
+	return "http://http://localhost:3000/inhabitent/";
 } 
 add_filter( 'login_headerurl', 'rafaelsc_inhabitent_login_url' );
