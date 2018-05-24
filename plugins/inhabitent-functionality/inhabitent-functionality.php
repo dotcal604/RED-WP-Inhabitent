@@ -2,7 +2,7 @@
  /**
  *
  * @package   Inhabitent Functionality
- * @author    Rafaelsc <mail@rafaelsc.net>
+ * @author    Rafaelsc - https://github.com/rafaelsc/
  * @license   GPL-2.0+
  * @copyright 2018 rafaelsc
  *
