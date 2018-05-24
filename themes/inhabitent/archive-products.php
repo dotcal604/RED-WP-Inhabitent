@@ -1,0 +1,65 @@
+<?php
+/**
+ * The template for displaying archive pages.
+ *
+ * @package rafaelsc_inhabitent_Theme
+ */
+
+function rafaelsc_inhabitent_products_body_classes( $classes ) {
+    $classes[] = 'products';
+	return $classes;
+}
+add_filter( 'body_class', 'rafaelsc_inhabitent_products_body_classes' );
+
+
+get_header(); ?>
+
+	<div class="content-to-center">
+		<!-- <div id="primary" class="content-area"> -->
+			<main id="main" class="site-main" role="main">
+
+				<session class="types">
+					<h2>Shop Stuff</h2>
+
+					<?php 
+						$query_args = array( 
+							'taxonomy' => 'product_type', 
+							'hide_empty' => false 
+						);
+						$product_types = get_terms( $query_args );
+					?>
+
+					<?php if ( !empty( $product_types ) ) : ?>
+					<ul class="shop-stuff">
+					<?php foreach ( $product_types as $product_type ): ?>
+						<li class="<?php "product-type-".$product_type->slug ?>">
+							<p> <a href=" <?php echo get_term_link( $product_type ); ?> " class="btn"><?php echo $product_type->name; ?></a> </p>
+						</li>
+					<?php endforeach; ?>
+					</ul>
+					<?php endif; ?>
+				</session>
+
+				<session class="products">
+					<?php if ( have_posts() ) : ?>
+
+						<?php /* Start the Loop */ ?>
+						<?php while ( have_posts() ) : the_post(); ?>
+
+							<?php
+								get_template_part( 'template-parts/content', 'product-small' );
+							?>
+
+						<?php endwhile; ?>
+
+					<?php else : ?>
+
+						<?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+					<?php endif; ?>
+				</session>
+			</main><!-- #main -->
+		<!--</div> #primary -->
+	</div>
+
+<?php get_footer(); ?>
