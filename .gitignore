@@ -231,3 +231,6 @@ access_log
 
 themes/inhabitent/linters/sass-lint.html
 
+uploads/wp-migrate-db/index.php
+mu-plugins/wp-migrate-db-pro-compatibility.php
+uploads/wp-migrate-db/.htaccess
