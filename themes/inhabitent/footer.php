@@ -41,7 +41,7 @@
 					</div>
 				</div>
                 <div class="copyright content-to-center">
-                    Copyright <i class="far fa-copyright"></i> 2016 Inhabitent
+					<p>Copyright <i class="far fa-copyright"></i> 2016 Inhabitent</p>
                 </div>
 			</footer><!-- #colophon -->
 

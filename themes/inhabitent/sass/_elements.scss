@@ -151,7 +151,9 @@ table {
 	}
 	
 	.logo {
-		background: url("../img/logos/inhabitent-logo-text.svg") no-repeat;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-image: url("../img/logos/inhabitent-logo-text.svg");
 	}
 
 	.socialNetwork {
@@ -169,6 +171,9 @@ table {
 
 	.copyright {
 		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		text-align: center;
 	}
 }
