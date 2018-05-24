@@ -67,7 +67,7 @@ __TODO__
 * Install MANP and Last Wordpress version
 * Clone the repo in the __wp-content__ wordpress directory
 * run _npm install_ in __wp-content__
-* Load the database dump file into the wordpess database. (_database.dump_)
+* Load the database dump file into the wordpess database. (_wp_inhabitent-migrate-20180524020309.sql.gz_)
 
 -----------------------------------------------
 ## Licence
