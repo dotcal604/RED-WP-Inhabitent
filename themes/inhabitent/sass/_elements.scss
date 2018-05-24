@@ -191,12 +191,15 @@ table {
 
 	display: block;
 
-	.site-content .content-to-center {
-		display: block;
-	}
-
-	h2 {
-		text-align: center;
+	.site-content {
+		.content-to-center {
+			display: block;
+		}
+		h2 {
+			text-align: center;
+			margin: 3rem 0 3rem 0;
+			font-size: 2.5rem;
+		}
 	}
 
 	.page-hero {
