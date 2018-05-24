@@ -466,6 +466,10 @@ table {
 
 .home {
   display: block; }
+  .home .site-content .content-to-center {
+    display: block; }
+  .home h2 {
+    text-align: center; }
   .home .page-hero {
     margin-top: -40px;
     width: 100vw;
@@ -486,6 +490,106 @@ table {
     width: 275px;
     height: 275px;
     background: url("../img/logos/inhabitent-logo-full.svg") no-repeat; }
+  .home ul.shop-stuff {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center; }
+    .home ul.shop-stuff li {
+      border: 1px solid #e1e1e1;
+      border-top-width: 5px;
+      -ms-flex: 0 1 23.5%;
+      -webkit-box-flex: 0;
+              flex: 0 1 23.5%;
+      max-width: 23.5%;
+      padding: .75rem; }
+      .home ul.shop-stuff li img {
+        height: 70px;
+        width: 70px; }
+  .home ul.journal {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0; }
+    .home ul.journal li {
+      width: 365px;
+      border: 1px solid #e1e1e1;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 32%;
+              flex: 0 1 32%;
+      position: relative; }
+      .home ul.journal li .info {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: .75rem;
+        color: #030303; }
+      .home ul.journal li .btn,
+      .home ul.journal li .title {
+        margin-left: 10px;
+        margin-right: 10px; }
+  .home ul.adventures {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 2fr;
+    grid-gap: 20px 20px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    height: 530px; }
+    .home ul.adventures li {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 2fr;
+      grid-gap: 20px 20px;
+      list-style-type: none;
+      margin-left: 0;
+      padding-left: 0;
+      width: 100%; }
+      .home ul.adventures li:first-child {
+        grid-column: 1/span 2;
+        grid-row: 1/span 2; }
+      .home ul.adventures li:nth-child(2) {
+        grid-column: 3/span 2;
+        grid-row: 1/span 1; }
+      .home ul.adventures li:after {
+        background: rgba(0, 0, 0, 0.35);
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1; }
+      .home ul.adventures li .picture {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1; }
+        .home ul.adventures li .picture img {
+          height: 100%;
+          -o-object-fit: cover;
+             object-fit: cover; }
+      .home ul.adventures li .title {
+        margin: 1.5rem;
+        position: absolute;
+        z-index: 2;
+        font-size: 2rem;
+        color: #f0e4d1; }
+        .home ul.adventures li .title a {
+          color: #f0e4d1; }
 
 .site-content {
   width: 100%;
