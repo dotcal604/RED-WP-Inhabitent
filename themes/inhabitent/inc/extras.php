@@ -2,7 +2,7 @@
 /**
  * Custom functions that act independently of the theme templates.
  *
- * @package RED_Starter_Theme
+ * @package rafaelsc_inhabitent_Theme
  */
 
 /**
@@ -11,26 +11,26 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function red_starter_body_classes( $classes ) {
+function rafaelsc_inhabitent_body_classes( $classes ) {
 	// Adds a class of group-blog to blogs with more than 1 published author.
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';
 	}
 	return $classes;
 }
-add_filter( 'body_class', 'red_starter_body_classes' );
+add_filter( 'body_class', 'rafaelsc_inhabitent_body_classes' );
 
 
-function red_starter_login_logo($url) {
+function rafaelsc_inhabitent_login_logo($url) {
 	// return "$url/images/logos/inhabitent-logo-full.svg";
 	echo '<style type="text/css">
 	h1 a {background-image: url('.get_bloginfo('template_directory').'/build/images/logos/inhabitent-logo-full.svg) !important; }
 </style>';
 } 
-add_filter( 'login_head', 'red_starter_login_logo' );
+add_filter( 'login_head', 'rafaelsc_inhabitent_login_logo' );
 
 
-function red_starter_login_url($url) {
+function rafaelsc_inhabitent_login_url($url) {
 	return "http://tent.academy.red/";
 } 
-add_filter( 'login_headerurl', 'red_starter_login_url' );
+add_filter( 'login_headerurl', 'rafaelsc_inhabitent_login_url' );

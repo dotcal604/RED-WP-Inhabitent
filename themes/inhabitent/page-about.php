@@ -2,14 +2,14 @@
 /**
  * The template for displaying all pages.
  *
- * @package RED_Starter_Theme
+ * @package rafaelsc_inhabitent_Theme
  */
 
-function red_starter_about_body_classes( $classes ) {
+function rafaelsc_inhabitent_about_body_classes( $classes ) {
     $classes[] = 'about';
 	return $classes;
 }
-add_filter( 'body_class', 'red_starter_about_body_classes' );
+add_filter( 'body_class', 'rafaelsc_inhabitent_about_body_classes' );
 
 
 get_header(); ?>

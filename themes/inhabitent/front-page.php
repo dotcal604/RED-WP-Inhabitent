@@ -2,7 +2,7 @@
 /**
  * The Main HomePage
  *
- * @package RED_Starter_Theme
+ * @package rafaelsc_inhabitent_Theme
  */
 
 get_header(); ?>
@@ -55,7 +55,7 @@ get_header(); ?>
         <?php foreach ( $blog_posts as $post ) : setup_postdata( $post ); ?>
             <li>
                 <div class="picture"><?php the_post_thumbnail( 'medium_large' ); ?></div>
-                <div class="info"><?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?></div>
+                <div class="info"><?php rafaelsc_inhabitent_posted_on(); ?> / <?php rafaelsc_inhabitent_comment_count(); ?></div>
                 <h3 class="title"><a href="<?php the_permalink(); ?>" class=""><?php the_title(); ?></a></h3>
                 <a href="<?php the_permalink(); ?>" class="btn">Read entry</a>
             </li>
