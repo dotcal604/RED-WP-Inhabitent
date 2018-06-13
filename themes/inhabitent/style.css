@@ -615,7 +615,7 @@ table {
   .about .site-content {
     display: block; }
   .site-content .content-area {
-    width: auto;
+    width: 80%;
     padding-top: 2rem;
     margin-left: .5rem;
     padding-right: 3rem;
@@ -1175,7 +1175,8 @@ object {
   display: block; }
 
 .tax-product_type .content-area {
-  border: none; }
+  border: none;
+  width: 100%; }
 
 .tax-product_type .entry-container {
   display: grid;
@@ -1201,7 +1202,12 @@ object {
   .tax-product_type .entry-container .product-info {
     width: 100%;
     padding: .75rem 1rem;
-    display: block; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .tax-product_type .entry-container .product-info h2, .tax-product_type .entry-container .product-info span {
       margin: 0 0;
       padding: 0 0;
@@ -1212,12 +1218,6 @@ object {
       font-family: Merriweather Web,serif;
       text-transform: none;
       background: #fff; }
-    .tax-product_type .entry-container .product-info h2::after {
-      z-index: -10;
-      float: left;
-      width: 0;
-      white-space: nowrap;
-      content: "..................................................."; }
 
 .single-products .site-content {
   max-width: 1120px;
