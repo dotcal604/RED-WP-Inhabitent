@@ -1199,14 +1199,7 @@ object {
   .tax-product_type .entry-container .product-info {
     width: 100%;
     padding: .75rem 1rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-line-pack: justify;
-        align-content: space-between; }
+    display: block; }
     .tax-product_type .entry-container .product-info h2, .tax-product_type .entry-container .product-info span {
       margin: 0 0;
       padding: 0 0;
@@ -1223,3 +1216,48 @@ object {
       width: 0;
       white-space: nowrap;
       content: "..................................................."; }
+
+.single-products .site-content {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: block; }
+
+.single-products .content-area {
+  border: none; }
+
+.single-products article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5rem; }
+
+.single-products .thumbnail {
+  width: 48%; }
+
+.single-products .data {
+  width: 48%; }
+
+.single-products h1 {
+  color: #d99054; }
+
+.single-products .price {
+  font-family: Novecento Sans Web,sans-serif;
+  font-size: 28.8px;
+  font-size: 1.5rem;
+  margin-top: 0;
+  text-transform: uppercase; }
+
+.single-products .blank-btn {
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 0;
+  font-family: Novecento Sans Web,sans-serif;
+  font-size: 14.4px;
+  font-size: .9rem;
+  line-height: 1;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase; }

@@ -48,7 +48,8 @@ get_header(); ?>
                             </div>
                             <div class="entry-info product-info">
                                 <h2><?php the_title(); ?></h2>
-                                <span><?php echo CFS()->get('price'); ?></span>
+                                
+                                <span class="price"><?php echo CFS()->get('price'); ?></span>
                             </div>
                         </div>
                     <?php endwhile; ?>
