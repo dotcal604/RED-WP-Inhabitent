@@ -17,7 +17,7 @@
 			</a>
 		</div>
 		<div class="entry-meta">
-			<?php the_title( '<p class="entry-title">', '</p>' ); ?>
+			<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 			<span><?php echo CFS()->get('price'); ?></span>
 		</div><!-- .entry-meta -->
 	</div><!-- .entry-header -->

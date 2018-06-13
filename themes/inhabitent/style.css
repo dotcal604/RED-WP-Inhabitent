@@ -719,7 +719,6 @@ table {
 .products .products {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1.5rem;
   margin-bottom: 1.5rem; }
   .products .products .post {
     width: 100%;
@@ -730,34 +729,37 @@ table {
     border: 1px solid #e1e1e1; }
     .products .products .entry .entry-picture {
       background-color: #e1e1e1;
+      width: 250px;
       height: 250px;
       overflow: hidden;
       position: relative; }
       .products .products .entry .entry-picture img {
+        top: 50%;
         left: 50%;
-        max-height: 150px;
+        max-height: 250px;
         max-width: none;
         width: auto;
         -o-object-fit: cover;
            object-fit: cover; }
     .products .products .entry .entry-meta {
       width: 100%;
-      font-size: .9rem;
-      background: #fff;
-      display: -webkit-inline-box;
-      display: -ms-inline-flexbox;
-      display: inline-flex;
+      padding: .75rem 1rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      font-weight: 400;
-      letter-spacing: 0;
-      line-height: 1.75;
-      padding-right: .25rem;
-      text-transform: none; }
+              justify-content: space-between; }
+      .products .products .entry .entry-meta h2, .products .products .entry .entry-meta span {
+        margin: 0 0;
+        padding: 0 0;
+        display: inline;
+        font-size: 1rem;
+        font-weight: normal;
+        font-weight: 400;
+        font-family: Merriweather Web,serif;
+        text-transform: none;
+        background: #fff; }
 
 /*--------------------------------------------------------------
 # Forms
