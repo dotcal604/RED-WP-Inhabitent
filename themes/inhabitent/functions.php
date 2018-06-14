@@ -64,6 +64,16 @@ function rafaelsc_inhabitent_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+
+	register_sidebar( array(
+		'name' => 'Footer Sidebar',
+		'id' => 'footer-sidebar',
+		'description' => 'Widget footer area',
+		'before_widget' => '<div class "widget-area">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
 }
 add_action( 'widgets_init', 'rafaelsc_inhabitent_widgets_init' );
 

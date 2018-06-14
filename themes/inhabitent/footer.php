@@ -27,14 +27,11 @@
 						</ul>
 					</div>
 
-					<div class="open-hours">
-						<h2>Business Hours</h2>
-						<div>
-							<p><span>Monday-Friday: </span>9am to 5pm</p>
-							<p><span>Saturday: </span>10am to 2am</p>
-							<p><span>Sundays: </span>Closed</p>
-						</div>
-					</div>
+					<?php
+						if(is_active_sidebar('footer-sidebar')){
+							dynamic_sidebar('footer-sidebar');
+						}
+					?>
 
 					<div class="logo">
 						<div class="screen-reader-text">Inhabitent Company Supply Co.</div>
