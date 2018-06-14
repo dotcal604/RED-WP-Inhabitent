@@ -10,7 +10,7 @@
  
 	<div class="entry">
 		<div class="entry-picture">
-			<a href="<?php the_permalink(); ?>" class="read-more black-btn">
+			<a href="<?php the_permalink(); ?>">
 			<?php if ( has_post_thumbnail() ) : ?>
 				<?php the_post_thumbnail( 'small' ); ?>
 			<?php endif; ?>
