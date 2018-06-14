@@ -4,17 +4,17 @@
  *
  *
  * @package   Business Hours
- * @author    Your Name <email@example.com>
+ * @author    rafaelsc
  * @license   GPL-2.0+
  * @link      http://inhabitent.com
- * @copyright 2018 Katerina Vopalkova
+ * @copyright rafaelsc (2018)
  *
  * @wordpress-plugin
  * Plugin Name:       Business Hours Widget
  * Plugin URI:        http://inhabitent.com
  * Description:       Plugin for defining business hours widget
  * Version:           1.0.0
- * Author:            kachniss
+ * Author:            rafaelsc
  * Author URI:        @TODO
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
