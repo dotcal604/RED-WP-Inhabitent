@@ -8,12 +8,4 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-    $('.search-field').on('')
-
-    $('.main-navigation').find('.search-field').on('focusout', function () {
-        if(!$(this).find('.search-field').val()) {
-            $('.main-navigation').find('.search-field').animate({'width': 'toggle'});
-        } 
-    });
-
 });

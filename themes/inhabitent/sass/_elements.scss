@@ -116,7 +116,7 @@ table {
 		.search-submit-hideShow {
 			display: unset;
 			padding-right: .5rem;
-			
+
 			color: #248a83;
 			float: left;
 			border: none;
@@ -125,6 +125,14 @@ table {
 			&:hover {
 				background: transparent;
 			}
+		}
+		.search-field {
+			border: 0;
+			background: transparent;
+			font-family: Novecento Sans Web,sans-serif;
+			margin-left: .75rem;
+			padding: 0 .3rem;
+			text-transform: uppercase;
 		}
 	}
 }

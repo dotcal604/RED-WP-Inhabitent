@@ -431,6 +431,13 @@ table {
     background: transparent; }
     .site-header .main-navigation .search-submit-hideShow:hover {
       background: transparent; }
+  .site-header .main-navigation .search-field {
+    border: 0;
+    background: transparent;
+    font-family: Novecento Sans Web,sans-serif;
+    margin-left: .75rem;
+    padding: 0 .3rem;
+    text-transform: uppercase; }
 
 .content-to-center {
   width: 100%;
