@@ -784,6 +784,19 @@ table {
         text-transform: none;
         background: #fff; }
 
+.read-more {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  font-family: Novecento Sans Web,sans-serif;
+  line-height: 1;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.post {
+  padding-bottom: 4rem; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -1250,6 +1263,19 @@ object {
       text-transform: none;
       background: #fff; }
 
+.search-results .site-content {
+  max-width: 1120px;
+  margin: 0 auto; }
+
+.search-results .site-main article {
+  padding-top: 2rem; }
+  .search-results .site-main article:first-of-type {
+    border-top: 1px dashed #c8c8c8; }
+  .search-results .site-main article:last-of-type {
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+    border-bottom: 1px dashed #c8c8c8; }
+
 .single-products .site-content {
   max-width: 1120px;
   margin: 0 auto;
@@ -1294,3 +1320,16 @@ object {
   padding: .75rem 1.5rem;
   text-decoration: none;
   text-transform: uppercase; }
+
+.search-pagination {
+  font-family: Novecento Sans Web,sans-serif;
+  padding: 3.5rem 0;
+  text-transform: uppercase; }
+  .search-pagination .page-numbers {
+    background-color: #248a83;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    padding: .5rem .75rem;
+    margin-right: .25rem;
+    text-align: center; }

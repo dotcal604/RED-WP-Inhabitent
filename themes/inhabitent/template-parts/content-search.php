@@ -15,14 +15,14 @@
 		<div class="entry-meta">
 			<?php rafaelsc_inhabitent_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php rafaelsc_inhabitent_posted_by(); ?>
 		</div><!-- .entry-meta -->
+
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php if ( has_post_thumbnail() ) : ?>
-		<?php the_post_thumbnail( 'large' ); ?>
-	<?php endif; ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
+		<p><a href="<?php the_permalink(); ?>" class="read-more black-btn">Read more →</a></p>
+
 	</div><!-- .entry-summary -->
 </article><!-- #post-## -->
