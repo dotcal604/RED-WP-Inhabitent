@@ -98,13 +98,24 @@ table {
 		width: 40px;
 		height: 28px;
 		margin: 0;
+		a {
+			text-decoration: none;
+		}
+		h1 {
+			width: 40px;
+			height: 28px;
+			margin: 0;
+			padding: 0;
+			color: transparent;
+			overflow: hidden;
+			
+			background-size: cover;
+			background-image: url("../img/logos/inhabitent-logo-tent.svg");
 
-		background-size: cover;
-		background-image: url("../img/logos/inhabitent-logo-tent.svg");
-
-		.home &,
-		.about & {
-			background-image: url("../img/logos/inhabitent-logo-tent-white.svg");
+			.home &,
+			.about & {
+				background-image: url("../img/logos/inhabitent-logo-tent-white.svg");
+			}
 		}
 	}
 
@@ -116,8 +127,6 @@ table {
 		.search-submit-hideShow {
 			display: unset;
 			padding-right: .5rem;
-
-			color: #248a83;
 			float: left;
 			border: none;
 			background: transparent;
