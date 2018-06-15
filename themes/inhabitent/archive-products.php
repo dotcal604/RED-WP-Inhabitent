@@ -40,7 +40,7 @@ get_header(); ?>
 					<?php endif; ?>
 				</div>
 
-				<session class="products">
+				<session class="products-list">
 					<?php if ( have_posts() ) : ?>
 
 						<?php /* Start the Loop */ ?>
