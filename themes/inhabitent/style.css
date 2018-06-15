@@ -483,8 +483,10 @@ table {
   .site-footer li, .site-footer a, .site-footer a:link, .site-footer a:visited {
     color: #fff; }
   .site-footer .site-contact ul {
-    margin-left: 25px;
-    margin-bottom: 0px; }
+    margin-left: 25px; }
+  .site-footer .site-contact li {
+    padding-top: .4rem;
+    padding-bottom: .6rem; }
   .site-footer .logo {
     background-repeat: no-repeat;
     background-size: contain;
@@ -666,8 +668,8 @@ table {
     .site-content .widget-area .site-contact ul {
       margin-left: 25px; }
     .site-content .widget-area .site-contact li {
-      margin-top: .4rem;
-      margin-bottom: .6rem; }
+      padding-top: .4rem;
+      padding-bottom: .6rem; }
 
 .site-main .feature-image {
   margin-top: -40px;

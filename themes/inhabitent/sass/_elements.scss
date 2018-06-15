@@ -176,10 +176,13 @@ table {
 	li, a, a:link, a:visited {
 		color: $color__footer-text;
 	}
-	.site-contact{
+	.site-contact {
 		ul {
 			margin-left: 25px;
-			margin-bottom: 0px;
+		}
+		li {
+			padding-top: .4rem;
+			padding-bottom: .6rem;
 		}
 	}
 	
@@ -407,8 +410,8 @@ table {
 				margin-left: 25px;
 			}
 			li {
-				margin-top: .4rem;
-				margin-bottom: .6rem;
+				padding-top: .4rem;
+				padding-bottom: .6rem;
 			}
 		}
 	}

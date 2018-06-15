@@ -21,13 +21,13 @@
 						</ul>
 						<ul class="fa-ul socialNetwork">
 							<li>
-								<span class="fa-li"><i class="fab fa-facebook-f"></i></span><a class="facebook" href="#" target="_black" rel="nofollow">http://facebook.com/inhabitent</a>
+								<span class="fa-li"><i class="fab fa-facebook-square"></i></span><a class="facebook" href="#" target="_black" rel="nofollow">http://facebook.com/inhabitent</a>
 							</li>
 							<li>
-								<span class="fa-li"><i class="fab fa-twitter"></i></span><a class="twitter" href="#" target="_black" rel="nofollow">http://twitter.com/inhabitent</a>
+								<span class="fa-li"><i class="fab fa-twitter-square"></i></span><a class="twitter" href="#" target="_black" rel="nofollow">http://twitter.com/inhabitent</a>
 							</li>
 							<li>
-								<span class="fa-li"><i class="fab fa-google-plus-g"></i></span><a class="googlePlus" href="#" target="_black" rel="nofollow">http://google.com/+/inhabitent</a>
+								<span class="fa-li"><i class="fab fa-google-plus-square"></i></span><a class="googlePlus" href="#" target="_black" rel="nofollow">http://google.com/+/inhabitent</a>
 							</li>
 						</ul>
 					</div>
@@ -43,7 +43,7 @@
 					</div>
 				</div>
                 <div class="copyright content-to-center">
-					<p>Copyright <i class="far fa-copyright"></i> 2016 Inhabitent</p>
+					<p>Copyright <i class="far fa-copyright"></i> 2018 Inhabitent</p>
                 </div>
 			</footer><!-- #colophon -->
 
