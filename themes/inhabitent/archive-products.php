@@ -18,7 +18,7 @@ get_header(); ?>
 		<!-- <div id="primary" class="content-area"> -->
 			<main id="main" class="site-main" role="main">
 
-				<session class="types">
+				<div class="types">
 					<h2>Shop Stuff</h2>
 
 					<?php 
@@ -38,7 +38,7 @@ get_header(); ?>
 					<?php endforeach; ?>
 					</ul>
 					<?php endif; ?>
-				</session>
+				</div>
 
 				<session class="products">
 					<?php if ( have_posts() ) : ?>

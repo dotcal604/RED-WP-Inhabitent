@@ -255,14 +255,14 @@ th {
   font-style: italic; }
 
 @font-face {
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento Sans Wide';
   src: url("../fonts/Novecento/Novecentosanswide-DemiBold.eot");
   src: url("../fonts/Novecento/Novecentosanswide-DemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecento/Novecentosanswide-DemiBold.woff2") format("woff2"), url("../fonts/Novecento/Novecentosanswide-DemiBold.woff") format("woff"), url("../fonts/Novecento/Novecentosanswide-DemiBold.ttf") format("truetype"), url("../fonts/Novecento/Novecentosanswide-DemiBold.svg#Novecentosanswide-DemiBold") format("svg");
   font-weight: 600;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento Sans Wide';
   src: url("../fonts/Novecento/Novecentosanswide-Normal.eot");
   src: url("../fonts/Novecento/Novecentosanswide-Normal.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecento/Novecentosanswide-Normal.woff2") format("woff2"), url("../fonts/Novecento/Novecentosanswide-Normal.woff") format("woff"), url("../fonts/Novecento/Novecentosanswide-Normal.ttf") format("truetype"), url("../fonts/Novecento/Novecentosanswide-Normal.svg#Novecentosanswide-Normal") format("svg");
   font-weight: normal;
@@ -285,7 +285,7 @@ textarea {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "Novovento Sans Wide", sans-serif;
+  font-family: "Novecento Sans Wide", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
   word-spacing: 0.05rem; }
@@ -557,7 +557,7 @@ table {
       -webkit-box-flex: 0;
               flex: 0 1 23.5%;
       max-width: 23.5%;
-      padding: .75rem; }
+      padding: 2.75rem; }
       .home ul.shop-stuff li img {
         height: 70px;
         width: 70px; }
@@ -731,14 +731,18 @@ table {
     bottom: 1.1%;
     color: #fff;
     display: inline-block;
-    font-family: Novecento Sans Web,sans-serif;
+    font-family: 'Novecento Sans Web',sans-serif;
     padding: 1.00005rem 1.5rem;
     position: absolute;
     right: 0;
     text-transform: uppercase; }
 
 .products .types {
-  text-align: center; }
+  text-align: center;
+  border-bottom: 1px dashed #c8c8c8;
+  margin-bottom: 3rem; }
+  .products .types h2 {
+    font-size: 2.4rem; }
   .products .types ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -753,6 +757,7 @@ table {
     padding-left: 0;
     text-transform: uppercase; }
     .products .types ul li {
+      font-family: Novecento Sans Web,sans-serif;
       margin: 0 1.5rem; }
 
 .products .products {
