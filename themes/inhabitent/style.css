@@ -728,7 +728,7 @@ table {
       color: #fff; }
   .post .entry-header .entry-meta {
     background-color: #248a83;
-    bottom: 0;
+    bottom: 1.1%;
     color: #fff;
     display: inline-block;
     font-family: Novecento Sans Web,sans-serif;
