@@ -11,19 +11,24 @@
 				<div class="content-to-center"> 
 					<div class="site-contact">
 						<h2>Contact Info</h2>
-						<ul class="fa-ul">
-							<li><a class="email" href="mailto:info@inhabitent.com" rel="nofollow">
-								<span class="fa-li"><i class="fas fa-envelope"></i></span>info@inhabitent.com</a></li>
-							<li><a class="phone" href="tel:+17784567891" rel="nofollow">
-								<span class="fa-li"><i class="fas fa-phone" data-fa-transform="flip-h"></i></span>+1 778-456-7891</a></li>
+						<ul class="fa-ul">	
+							<li>
+								<span class="fa-li"><i class="fas fa-phone"></i></span><a class="phone" href="tel:+17784567891" rel="nofollow">+1 778-456-7891</a>
+							</li>
+							<li>
+								<span class="fa-li"><i class="fas fa-envelope"></i></span><a class="email" href="mailto:info@inhabitent.com" rel="nofollow">info@inhabitent.com</a>
+							</li>
 						</ul>
 						<ul class="fa-ul socialNetwork">
-							<li><a class="facebook" href="#" target="_black" rel="nofollow">
-								<span class="fa-li"><i class="fab fa-facebook-f"></i></span>http://facebook.com/inhabitent</a></li>
-							<li><a class="twitter" href="#" target="_black" rel="nofollow">
-								<span class="fa-li"><i class="fab fa-twitter"></i></span>http://twitter.com/inhabitent</a></li>
-							<li><a class="googlePlus" href="#" target="_black" rel="nofollow">
-								<span class="fa-li"><i class="fab fa-google-plus-g"></i></span>http://google.com/+/inhabitent</a></li>
+							<li>
+								<span class="fa-li"><i class="fab fa-facebook-f"></i></span><a class="facebook" href="#" target="_black" rel="nofollow">http://facebook.com/inhabitent</a>
+							</li>
+							<li>
+								<span class="fa-li"><i class="fab fa-twitter"></i></span><a class="twitter" href="#" target="_black" rel="nofollow">http://twitter.com/inhabitent</a>
+							</li>
+							<li>
+								<span class="fa-li"><i class="fab fa-google-plus-g"></i></span><a class="googlePlus" href="#" target="_black" rel="nofollow">http://google.com/+/inhabitent</a>
+							</li>
 						</ul>
 					</div>
 

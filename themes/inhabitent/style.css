@@ -1347,3 +1347,6 @@ object {
     padding: .5rem .75rem;
     margin-right: .25rem;
     text-align: center; }
+
+.days-of-week {
+  font-weight: bolder; }
