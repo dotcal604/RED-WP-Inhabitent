@@ -29,9 +29,9 @@
 		</div><!-- .entry-content -->
 
 		<div class="social-buttons">
-			<a href="#" targer="_black" class="blank-btn"><i class="fa fa-facebook-f"></i>Like</a>
-			<a href="#" targer="_black" class="blank-btn"><i class="fa fa-twitter"></i>Tweet</a>
-			<a href="#" targer="_black" class="blank-btn"><i class="fa fa-pinterest"></i>Pin</a>
+			<a href="#" targer="_black" class="blank-btn"><i class="fab fa-facebook-f"></i>Like</a>
+			<a href="#" targer="_black" class="blank-btn"><i class="fab fa-twitter"></i>Tweet</a>
+			<a href="#" targer="_black" class="blank-btn"><i class="fab fa-pinterest"></i>Pin</a>
 		</div>
 
 	</session>
