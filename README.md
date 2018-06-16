@@ -65,13 +65,13 @@ A wordpress theme created at RED Academy.
 
 * Install MANP and Last Wordpress version
 * Clone the repo in the __wp-content__ wordpress directory
-* Load the database dump file into the wordpess database. (_wp_inhabitent-migrate-20180524020309.sql.gz_)
+* Load the database dump file into the wordpess database. (_wp_inhabitent-migrate-20180616231728.sql.gz_)
 
 ## Contribution instructions
 
 * Install MANP and Last Wordpress version
 * Clone the repo in the __wp-content__ wordpress directory
-* Load the database dump file into the wordpess database. (_wp_inhabitent-migrate-20180524020309.sql.gz_)
+* Load the database dump file into the wordpess database. (_wp_inhabitent-migrate-20180616231728.sql.gz_)
 * run _npm install_ in __wp-content__
 * go to __\wp-content\themes\inhabitent__ directory and run _gulp_
 
