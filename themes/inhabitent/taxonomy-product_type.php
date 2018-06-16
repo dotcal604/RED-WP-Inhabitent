@@ -17,7 +17,7 @@ get_header(); ?>
                 <p><?php echo $term->description; ?></p>
             </header>
 
-            <session class = "entry-container">
+            <session class="products-list">
 
                 <?php
                     $args = array( 
@@ -36,26 +36,21 @@ get_header(); ?>
                     $products = new WP_Query( $args );
                 ?>
 
-                <?php if ( $products->have_posts() ) : ?>
-                    <?php while ( $products->have_posts() ) : $products->the_post(); ?>
-                        <div class="entry-post product-post">
-                            <div class="entry-thumbnail">
-                                <a href="<?php the_permalink();?>">
-                                    <?php if ( has_post_thumbnail() ) : ?>
-                                        <?php the_post_thumbnail( 'large' ); ?>
-                                    <?php endif; ?>
-                                </a>
-                            </div>
-                            <div class="entry-info product-info">
-                                <h2><?php the_title(); ?></h2>
-                                
-                                <span class="price"><?php echo CFS()->get('price'); ?></span>
-                            </div>
-                        </div>
+                <?php if ( have_posts() ) : ?>
+
+                    <?php /* Start the Loop */ ?>
+                    <?php while ( have_posts() ) : the_post(); ?>
+
+                        <?php
+                            get_template_part( 'template-parts/content', 'product-small' );
+                        ?>
+
                     <?php endwhile; ?>
-                    <?php wp_reset_postdata(); ?>
+
                 <?php else : ?>
-                    <h2>Nothing found!</h2>
+
+                    <?php get_template_part( 'template-parts/content', 'none' ); ?>
+
                 <?php endif; ?>
 
             </session>

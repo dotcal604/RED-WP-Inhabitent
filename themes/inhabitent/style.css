@@ -737,13 +737,16 @@ table {
     right: 0;
     text-transform: uppercase; }
 
-.post-type-archive .types {
+.post-type-archive .types,
+.term-do .types {
   text-align: center;
   border-bottom: 1px dashed #c8c8c8;
   margin-bottom: 3rem; }
-  .post-type-archive .types h2 {
+  .post-type-archive .types h2,
+  .term-do .types h2 {
     font-size: 2.4rem; }
-  .post-type-archive .types ul {
+  .post-type-archive .types ul,
+  .term-do .types ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -756,19 +759,23 @@ table {
     margin-left: 0;
     padding-left: 0;
     text-transform: uppercase; }
-    .post-type-archive .types ul li {
+    .post-type-archive .types ul li,
+    .term-do .types ul li {
       font-family: Novecento Sans Web,sans-serif;
       margin: 0 1.5rem; }
 
-.post-type-archive .products-list {
+.post-type-archive .products-list,
+.term-do .products-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
   margin-bottom: 1.5rem; }
-  .post-type-archive .products-list .post {
+  .post-type-archive .products-list .post,
+  .term-do .products-list .post {
     width: 100%;
     height: 100%; }
-  .post-type-archive .products-list .entry {
+  .post-type-archive .products-list .entry,
+  .term-do .products-list .entry {
     width: 100%;
     height: 100%;
     border: 1px solid #e1e1e1;
@@ -779,13 +786,15 @@ table {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    .post-type-archive .products-list .entry .entry-picture {
+    .post-type-archive .products-list .entry .entry-picture,
+    .term-do .products-list .entry .entry-picture {
       background-color: #e1e1e1;
       width: 250px;
       height: 250px;
       overflow: hidden;
       position: relative; }
-      .post-type-archive .products-list .entry .entry-picture img {
+      .post-type-archive .products-list .entry .entry-picture img,
+      .term-do .products-list .entry .entry-picture img {
         top: 50%;
         left: 50%;
         max-height: 250px;
@@ -793,11 +802,14 @@ table {
         width: auto;
         -o-object-fit: cover;
            object-fit: cover; }
-    .post-type-archive .products-list .entry .entry-meta {
+    .post-type-archive .products-list .entry .entry-meta,
+    .term-do .products-list .entry .entry-meta {
       width: 100%;
       padding: .75rem 1rem;
       display: block; }
-      .post-type-archive .products-list .entry .entry-meta h2, .post-type-archive .products-list .entry .entry-meta span {
+      .post-type-archive .products-list .entry .entry-meta h2, .post-type-archive .products-list .entry .entry-meta span,
+      .term-do .products-list .entry .entry-meta h2,
+      .term-do .products-list .entry .entry-meta span {
         margin: 0 0;
         padding: 0 0;
         display: inline;
@@ -810,13 +822,16 @@ table {
         line-height: 1.75;
         text-transform: none;
         background: #fff; }
-      .post-type-archive .products-list .entry .entry-meta h2 {
+      .post-type-archive .products-list .entry .entry-meta h2,
+      .term-do .products-list .entry .entry-meta h2 {
         padding-right: .25rem; }
-      .post-type-archive .products-list .entry .entry-meta span {
+      .post-type-archive .products-list .entry .entry-meta span,
+      .term-do .products-list .entry .entry-meta span {
         float: right;
         padding-left: .25rem;
         background: #fff; }
-      .post-type-archive .products-list .entry .entry-meta h2:before {
+      .post-type-archive .products-list .entry .entry-meta h2:before,
+      .term-do .products-list .entry .entry-meta h2:before {
         float: left;
         width: 0;
         white-space: nowrap;
@@ -1281,25 +1296,6 @@ object {
       -webkit-transform: translate(-50%, -52%);
               transform: translate(-50%, -52%);
       width: auto; }
-  .tax-product_type .entry-container .product-info {
-    width: 100%;
-    padding: .75rem 1rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .tax-product_type .entry-container .product-info h2, .tax-product_type .entry-container .product-info span {
-      margin: 0 0;
-      padding: 0 0;
-      display: inline;
-      font-size: 1rem;
-      font-weight: normal;
-      font-weight: 400;
-      font-family: Merriweather Web,serif;
-      text-transform: none;
-      background: #fff; }
 
 .search-results .site-content {
   max-width: 1120px;

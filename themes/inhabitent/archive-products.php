@@ -15,10 +15,10 @@ add_filter( 'body_class', 'rafaelsc_inhabitent_products_body_classes' );
 get_header(); ?>
 
 	<div class="content-to-center">
-		<!-- <div id="primary" class="content-area"> -->
+		<!-- <header id="primary" class="content-area"> -->
 			<main id="main" class="site-main" role="main">
 
-				<div class="types">
+				<header class="types">
 					<h2>Shop Stuff</h2>
 
 					<?php 
@@ -38,7 +38,7 @@ get_header(); ?>
 					<?php endforeach; ?>
 					</ul>
 					<?php endif; ?>
-				</div>
+				</header>
 
 				<session class="products-list">
 					<?php if ( have_posts() ) : ?>
